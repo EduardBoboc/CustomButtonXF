@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="CustomButton.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:eBtn="clr-namespace:CustomButton.CustomControls">
+
+    <StackLayout Orientation="Vertical">
+
+        <Frame BackgroundColor="DarkCyan">
+            <Label
+                FontAttributes="Bold"
+                FontSize="40"
+                HorizontalOptions="CenterAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="RO" TextColor="Blue" />
+                            <Span Text="MÂN" TextColor="Yellow" />
+                            <Span Text="IA" TextColor="Red" />
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </Frame>
+
+        <eBtn:eButton />
+
+
+    </StackLayout>
+
+</ContentPage>

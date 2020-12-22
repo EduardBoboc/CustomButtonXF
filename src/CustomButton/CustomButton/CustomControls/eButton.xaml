@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentView
+    x:Class="CustomButton.CustomControls.eButton"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <Frame
+        Padding="20,10"
+        BackgroundColor="ForestGreen"
+        CornerRadius="30">
+        <Grid Padding="0" ColumnDefinitions="*, 50">
+            <Label
+                Grid.Column="0"
+                Padding="20,0"
+                FontSize="20"
+                Text="Buna dimineataaa"
+                TextColor="WhiteSmoke"
+                VerticalOptions="CenterAndExpand" />
+            <Frame
+                Grid.Column="1"
+                Padding="0"
+                CornerRadius="20"
+                HeightRequest="40"
+                HorizontalOptions="EndAndExpand"
+                WidthRequest="40">
+                <Image
+                    Aspect="AspectFill"
+                    BackgroundColor="WhiteSmoke"
+                    Source="https://www.freepnglogos.com//uploads/google-logo-png/google-logo-png-google-logos-vector-eps-cdr-svg-download-10.png" />
+            </Frame>
+        </Grid>
+    </Frame>
+</ContentView>
